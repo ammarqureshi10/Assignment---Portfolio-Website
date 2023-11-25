@@ -46,7 +46,7 @@ html, body {
 
 /* project section start */
 .projects {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -73,7 +73,7 @@ html, body {
 
 /* social-links section start */
 .social-links {
-    margin-top: 40px;
+    margin-top: 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif
 }
