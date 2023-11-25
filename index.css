@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+}
+/* header start */
+.main-header {
+    background-color: burlywood;
+    border-radius: 4px;
+}
+.main-header-title {
+    /* border: 1px solid; */
+    margin: 0 16px;
+    font-family: 'Roboto', sans-serif;
+}
+/* header end */
+
+
+/* hero section start */
+.hero {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.hero-img {
+    width: 100px;
+    border-radius: 100px;
+}
+/* hero section end */
+
+/* information section start */
+.information {
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+}
+.information .skills {
+    list-style: none;
+    font-size: larger;
+    
+}
+.information ul li {
+    display: inline;
+}
+/* information section end */
+
+/* project section start */
+.projects {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.projects .project-item {
+    width: 120px;
+    height: 130px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: #ececec;
+    border-radius: 4px;
+}
+.projects .project-item h3 {
+    /* margin: 0; remove default margin of h3 or redefine margin like below */ 
+    margin: 20px 0;
+}
+.projects a {
+    text-decoration: none;
+    color: black;
+}
+.projects a:hover {
+    text-decoration: underline;
+}
+/* project section end */
+
+/* social-links section start */
+.social-links {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif
+}
+.social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+.social-links a:hover {
+    text-decoration: underline;
+}
+/* social-links section end */
